@@ -20,9 +20,7 @@ st.write('The name on your smoothie will be :',name_on_order)
 
 # st.write('Your favourite fruit is:', option)
 
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
+
 
 #session = get_active_session()
 cnx=st.connection("snowflake")
